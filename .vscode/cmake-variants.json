@@ -1,0 +1,58 @@
+{
+    "buildType": {
+        "default": "debug",
+        "choices": {
+            "debug": {
+                "short": "Debug",
+                "long": "Emit debug information",
+                "buildType": "Debug",
+                "env": {
+                    "BUILD_TYPE": "Debug"
+                }
+            },
+            "release": {
+                "short": "Release",
+                "long": "Optimize generated code",
+                "buildType": "Release",
+                "env": {
+                    "BUILD_TYPE": "Release"
+                }
+            }
+        }
+    },
+    "targetPlatform": {
+        "default": "Embedded",
+        "choices": {
+            "embedded": {
+                "short": "Embedded",
+                "long": "Build for embedded platform",
+                "settings": {
+                    "TARGET_PLATFORM": "EMBEDDED"
+                },
+                "env": {
+                    "TARGET_PLATFORM": "EMBEDDED"
+                }
+            },
+            "host": {
+                "short": "Host",
+                "long": "Build for host platform",
+                "settings": {
+                    "TARGET_PLATFORM": "HOST"
+                },
+                "env": {
+                    "TARGET_PLATFORM": "HOST"
+                }
+            },
+            "unit_tests": {
+                "short": "Unit Tests",
+                "long": "Build for unit tests",
+                "settings": {
+                    "TARGET_PLATFORM": "UNIT_TESTS"
+                },
+                "env": {
+                    "TARGET_PLATFORM": "UNIT_TESTS"
+                }
+            }
+        }
+    }
+}

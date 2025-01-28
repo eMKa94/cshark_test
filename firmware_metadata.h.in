@@ -1,0 +1,13 @@
+// clang-format off
+#ifndef VERSION_H
+#define VERSION_H
+
+#define GIT_COMMIT_HASH        "@GIT_COMMIT_HASH@"
+#define FIRMWARE_VERSION_MAJOR @FIRMWARE_VERSION_MAJOR@
+#define FIRMWARE_VERSION_MINOR @FIRMWARE_VERSION_MINOR@
+#define FIRMWARE_VERSION_PATCH @FIRMWARE_VERSION_PATCH@
+
+// TODO: Maybe this should be a cmake variable as it might differ between boards
+#define FIRMWARE_BASE_ADDRESS 0x08005000
+
+#endif // VERSION_H

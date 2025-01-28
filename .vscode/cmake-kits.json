@@ -1,0 +1,10 @@
+[
+    {
+        "name": "ARM-NONE-EABI-GCC",
+        "compilers": {
+            "C": "/usr/share/gcc-arm-none-eabi/bin/arm-none-eabi-gcc",
+            "CXX": "/usr/share/gcc-arm-none-eabi/bin/arm-none-eabi-g++"
+        },
+        "toolchainFile": "${workspaceFolder}/cmake/gcc-arm-none-eabi.cmake"
+    }
+]

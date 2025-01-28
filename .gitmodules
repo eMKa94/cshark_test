@@ -1,0 +1,12 @@
+[submodule "cpputest"]
+	path = cpputest
+	url = https://github.com/cpputest/cpputest.git
+[submodule "STM32CubeG4"]
+	path = drivers/STM32CubeG4
+	url = https://github.com/STMicroelectronics/STM32CubeG4.git
+[submodule "FreeRTOS"]
+	path = FreeRTOS
+	url = https://github.com/FreeRTOS/FreeRTOS.git
+[submodule "FreeRTOS-Kernel"]
+	path = FreeRTOS-Kernel
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
